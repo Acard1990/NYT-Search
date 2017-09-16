@@ -32,7 +32,7 @@ $('#search-button').on('click', function() {
       newsDiv.append(section);
       newsDiv.append(publisher);
       newsDiv.append(link);
-      $('#top-articles').prepend(newDiv);
+      $('#top-articles').prepend(newsDiv);
     }
   });
 });
